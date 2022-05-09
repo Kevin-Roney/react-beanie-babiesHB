@@ -31,6 +31,7 @@ function App() {
         <button onClick={() => setPage(page + 1)}>Next Page</button>
       </div>
       {/* pass the beanie babies into the BeaniesList component */}
+      <BeaniesList beanieBabies={beanieBabies}/>
     </>
   );
 }
