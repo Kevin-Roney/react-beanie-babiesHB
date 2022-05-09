@@ -1,0 +1,56 @@
+body {
+ background-image: url(./bg.png);
+ background-size: 30%;
+}
+
+.App {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.beanie-baby {
+  margin: 20px;
+}
+
+.beanie-baby .beanie-img {
+  width: 200px;
+}
+
+.beanies {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.beanie-detail {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.beanie-detail img {
+  cursor: pointer;
+  width: 400px;
+}
+
+.beanie-detail .beanie-data {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.beanie-detail .beanie-data p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+}
