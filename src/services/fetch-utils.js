@@ -1,6 +1,6 @@
 import { client, checkError } from './client';
 
-export async function getBeanieBabies(from = 0, to = 30) {
+export async function getBeanieBabies(from, to) {
   const response = await client
     .from('beanie_babies')
     .select()
