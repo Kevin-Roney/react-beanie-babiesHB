@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     async function fetch() {
       const from = page * perPage - perPage;
-      const to = page * perPage;
+      const to = page * perPage - 1;
       const beanies = await getBeanieBabies(from, to);
 
       setBeanieBabies(beanies);

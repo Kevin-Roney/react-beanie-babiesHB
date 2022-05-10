@@ -35,8 +35,8 @@ export default function BeanieDetail() {
       <Link to='/'>Home</Link>
       <div className='beanie-detail' onClick={handleBeanieClick}>
         <div className='beanie-data'>
+          <h2>{beanieBaby.title}</h2>
           <p>{beanieBaby.animal}</p>
-          <p>{beanieBaby.title}</p>
           <p>Zodiac: {beanieBaby.astroSign}</p>
           <img className='beanie-img' src={beanieBaby.image}/>
           <p> Born on {beanieBaby.birthday}</p>

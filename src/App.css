@@ -22,9 +22,6 @@ a {
   margin: 20px;
 }
 
-.beanie-baby .beanie-img {
-  width: 200px;
-}
 
 .beanies {
   text-align: center;
@@ -46,20 +43,9 @@ a {
   width: 400px;
 }
 
-.beanie-detail .beanie-data {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
 
-.beanie-detail .beanie-data p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: pink;
-  border-radius: 20px;
-  margin: 10px;
-  padding: 20px;
-}
+
+
 
 .beanie-list-image {
   width: 100px;
@@ -68,6 +54,7 @@ a {
 .beanie-list-item {
   margin: 10px;
   padding: 10px;
+  width: 230px;
 }
 
 .beanie-list-item:hover {
